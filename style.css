@@ -1,0 +1,88 @@
+body{
+    overflow-x:hidden;
+    width:100vw;
+}
+/* .ScContainer{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height:100vh;
+
+} */
+
+.section{
+    display:flex;
+    min-height:100vh;
+    possition: relative;
+    /* opacity:0; */
+    /* transition: all 1s; */
+    /* scroll-snap-align: start; */
+}
+/* .show{
+    opacity:1;
+    filter:blur;
+    transform: translateY(0);
+} */
+
+.section .img{
+    transition:1s;
+    /* transform-origin: top; */
+    /* transform: scaleX(1) */
+}
+
+.svg1{
+    margin-left:37rem;
+}
+.brd{
+    margin-left:39rem;
+}
+.brd2{
+    margin-top:600px;
+    margin-left:600px
+}
+.dwnld{
+    font-size:50px
+}
+
+.skip{
+   margin-left:600px;
+    
+}
+
+/* .img{
+    filter: blur(30px);
+    opacity:0;
+    transition: filter 0.5s ease, opacity 0.5s ease;
+}
+.section{
+    opacity:0;
+    filter: blur(0);
+} */
+
+/* .section.active .img{
+    opacity:1;
+    filter: blur(0);
+}
+.section.active{
+    opacity:1;
+    filter: blur(0);
+} */
+/* *{
+    margin:-11%;
+    padding:0;
+    background-color:black;
+    
+} */
+/* body{
+    margin-top:-11%;
+} */
+
+/* .img{
+    margin-left: 500px
+} */
+/* .pzzz{
+    margin-top:600px;
+} */
+/* #transring{
+    height:500px;
+    height:500px;
+} */

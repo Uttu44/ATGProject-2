@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="aos.scss" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body class="flex w-screen">
+    <div class="svg1 fixed w-80">
+      <!-- data-aos="flip-left" -->
+      <svg
+        class="w-80 h-80 mx-auto mt-40"
+        version="1.1"
+        id="transring"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        viewBox="0 0 414 414"
+        style="enable-background: new 0 0 414 414"
+        xml:space="preserve"
+      >
+        <!-- background-color: lightblue -->
+        <path
+          id="Transparent_Ring"
+          class="transrg"
+          style="
+            opacity: 0.4;
+            fill: none;
+            stroke: #ffffff;
+            stroke-width: 2;
+            stroke-miterlimit: 10;
+            enable-background: new;
+          "
+          d="M84.2,85c31.3-31.5,74.7-51,122.7-51c95.5,0,173,77.5,173,173s-77.5,173-173,173
+                c-47.8,0-91-19.4-122.3-50.7"
+        ></path>
+        <path
+          id="Opaque_Ring"
+          class="transrgwht"
+          style="
+            fill: none;
+            stroke: rgb(255, 255, 255);
+            stroke-width: 2;
+            stroke-miterlimit: 10;
+            enable-background: new;
+          "
+          d="M84.2,85c31.3-31.5,74.7-51,122.7-51c95.5,0,173,77.5,173,173s-77.5,173-173,173
+                c-47.8,0-91-19.4-122.3-50.7"
+        ></path>
+
+        <g id="Dots" class="dots-nav">
+          <g>
+            <path
+              class="dotsst dotsfill"
+              style="fill: rgb(0, 146, 255); opacity: 1"
+              d="M84,80 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 87, 80, 84,80 z"
+            ></path>
+          </g>
+          <g>
+            <path
+              class="dotsstro1"
+              style="
+                opacity: 1;
+                fill: none;
+                stroke: rgb(255, 255, 255);
+                stroke-width: 2;
+                stroke-miterlimit: 10;
+              "
+              d="M84,80c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 87, 80, 84,80 z"
+            ></path>
+          </g>
+        </g>
+        <g id="Dots1" class="dots-nav">
+          <g>
+            <path
+              class="dotsst dotsfill1"
+              style="fill: rgb(0, 146, 255); opacity: 1"
+              d="M84,80 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 87, 80, 84,80 z"
+            ></path>
+          </g>
+          <g>
+            <path
+              class="dotsstro1"
+              style="
+                opacity: 1;
+                fill: none;
+                stroke: rgb(255, 255, 255);
+                stroke-width: 2;
+                stroke-miterlimit: 10;
+              "
+              d="M84,80c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 87, 80, 84,80 z"
+            ></path>
+          </g>
+        </g>
+        <g id="Dots2" class="dots-nav">
+          <g>
+            <path
+              class="dotsst dotsfill2"
+              style="fill: rgb(0, 146, 255); opacity: 1"
+              d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6S 210.1,29, 206.8,29 "
+            ></path>
+            <!-- style="fill: rgb(0, 146, 255); opacity: 1" -->
+          </g>
+          <g>
+            <path
+              class="dotsstro2"
+              style="
+                opacity: 1;
+                fill: none;
+                stroke: rgb(255, 255, 255);
+                stroke-width: 2;
+                stroke-miterlimit: 10;
+              "
+              d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6S 210.1,29, 206.8,29 "
+            ></path>
+          </g>
+        </g>
+        <g id="Dots3" class="dots-nav">
+          <g>
+            <path
+              class="dotsst dotsfill3"
+              style="fill: rgb(0, 146, 255); opacity: 1"
+              d="M332,85 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 335,85, 332,85"
+            ></path>
+          </g>
+          <g>
+            <path
+              class="dotsstro3"
+              style="
+                opacity: 1;
+                fill: none;
+                stroke: rgb(255, 255, 255);
+                stroke-width: 2;
+                stroke-miterlimit: 10;
+              "
+              d="M332,85 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 335,85, 332,85 "
+            ></path>
+          </g>
+        </g>
+        <g id="Dots4" class="dots-nav">
+          <g>
+            <path
+              class="dotsst dotsfill4"
+              style="fill: rgb(0, 146, 255); opacity: 1"
+              d="M380,212 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 380,212, 380,212 "
+            ></path>
+          </g>
+          <g>
+            <path
+              class="dotsstro4"
+              style="
+                opacity: 1;
+                fill: none;
+                stroke: rgb(255, 255, 255);
+                stroke-width: 2;
+                stroke-miterlimit: 10;
+              "
+              d="M380,212 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 380,212, 380,212"
+            ></path>
+          </g>
+        </g>
+        <g id="Dots5" class="dots-nav">
+          <g>
+            <path
+              class="dotsst dotsfill5"
+              style="fill: rgb(0, 146, 255); opacity: 1"
+              d="M320,335 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 320,335, 320,335"
+            ></path>
+          </g>
+          <g>
+            <path
+              class="dotsstro5"
+              style="
+                opacity: 1;
+                fill: none;
+                stroke: rgb(255, 255, 255);
+                stroke-width: 2;
+                stroke-miterlimit: 10;
+              "
+              d="M320,335 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 320,335, 320,335"
+            ></path>
+          </g>
+        </g>
+        <g id="Dots6" class="dots-nav">
+          <g>
+            <path
+              class="dotsst dotsfill6"
+              style="fill: rgb(0, 146, 255); opacity: 1"
+              d="M193,375 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 193,375, 193,375"
+            ></path>
+          </g>
+          <g>
+            <path
+              class="dotsstro6"
+              style="
+                opacity: 1;
+                fill: none;
+                stroke: rgb(255, 255, 255);
+                stroke-width: 2;
+                stroke-miterlimit: 10;
+              "
+              d="M193,375 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 193,375, 193,375 "
+            ></path>
+          </g>
+        </g>
+        <g id="Dots7" class="dots-nav">
+          <g>
+            <path
+              class="dotsst dotsfill7"
+              style="fill: rgb(0, 146, 255); opacity: 1"
+              d="M88,324 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 92,324, 88,324"
+            ></path>
+          </g>
+          <g>
+            <path
+              class="dotsstro7"
+              style="
+                opacity: 1;
+                fill: none;
+                stroke: rgb(255, 255, 255);
+                stroke-width: 2;
+                stroke-miterlimit: 10;
+              "
+              d="M88,324 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 92,324, 88,324"
+            ></path>
+          </g>
+        </g>
+      </svg>
+    </div>
+
+    <div class="ScContainer mt-0 h-screen ml-auto w-screen">
+      <div class="flex">
+        <section class="section flex h-screen w-1/2 bg-purple-700 text-white">
+          <div class="mt-64 ml-auto" data-aos="fade-down">
+            <h1 class="dwnld ml-80">25M+ Downloads</h1>
+            <span class="ml-96">on appstore & google playstore</span>
+          </div>
+
+          <div
+            class="ABC123 absolute mt-96 text-white ml-8"
+            data-aos="fade-down"
+          >
+            <img
+              class="img"
+              src="./Images/mobile-app-of-the-year-by-entrepreneur.png"
+              alt="art"
+              srcs
+            />
+            <h1 class="text-3xl font-bold" data-aos="fade-down">ABC 123</h1>
+            <samp data-aos="fade-down">We are the best web developer</samp>
+            <br />
+            <spam data-aos="fade-down">company in the world</spam>
+            <br />
+            <samp class="absolute mt-32">View Case Study -> </samp>
+            <br />
+            <samp class="skip absolute mt-10" data-aos="fade-down">SKIP</samp>
+          </div>
+        </section>
+        <section class="section flex h-screen w-1/2 ml-auto bg-gray-400">
+          <dev data-aos="fade-down" class="flex mt-36 ml-20 w-96 h-4/6">
+            <img
+              class="img"
+              src="./Images/nexgtv-entertainment-mobile-app-development.png"
+              alt="art"
+              srcset=""
+            />
+          </dev>
+          <dev data-aos="fade-up" class="flex mt-40 mr-10 w- h-4/6">
+            <img
+              class="img"
+              src="./Images/nexgtv-mobile-app-ui-design.png"
+              alt="art"
+              srcset=""
+            />
+          </dev>
+        </section>
+      </div>
+
+      <div class="flex">
+        <section class="section flex h-screen w-1/2 bg-purple-600">
+          <div class="mt-64 ml-auto text-white">
+            <div data-aos="fade-up" data-aos-anchor-placement="center-center">
+              <span class="ml-96">The Next Big</span>
+              <h1 class="dwnld ml-80">Blockchain</h1>
+              <span class="ml-96">Revolution</span>
+            </div>
+          </div>
+
+          <div class="ABC123 absolute mt-96 text-white ml-8">
+            <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+              <h1 class="mt-24 text-3xl font-bold">ABC 234</h1>
+              <samp>We are the best web developer</samp>
+              <br />
+              <spam>company in the world</spam>
+              <br />
+              <samp class="absolute mt-32">Comming Soon </samp>
+              <br />
+              <samp class="skip absolute mt-28">SKIP</samp>
+            </div>
+          </div>
+        </section>
+
+        <section class="section flex h-screen w-1/2 ml-auto bg-indigo-900">
+          <dev data-aos="fade-up" class="flex mt-80 ml-40 w-96 h-3/6">
+            <img
+              class="img"
+              src="./Images/veme-blockchain-app-developed.png"
+              alt="art"
+              srcset=""
+            />
+          </dev>
+          <dev data-aos="fade-down" class="flex mt-32 mr-10 w-96 h-3/6">
+            <img
+              class="img"
+              src="./Images/veme-app-ui-design.png"
+              alt="art"
+              srcset=""
+            />
+          </dev>
+        </section>
+      </div>
+
+      <div class="flex">
+        <section class="section flex h-screen w-1/2 bg-sky-900 text-white">
+          <div class="mt-64 ml-auto" data-aos="zoom-out-up">
+            <h1 class="ml-80">Powered by advance</h1>
+            <img
+              data-aos="zoom-out-up"
+              class="img absolute h-20 ml-60"
+              src="./Images/nasa-mobile-app.png"
+              alt="art"
+              srcs
+            />
+            <span class="absolute ml-96 mt-20">Algorithm</span>
+          </div>
+
+          <div class="ABC123 absolute mt-96 text-white ml-8">
+            <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+              <h1 class="text-3xl font-bold">ABC 345</h1>
+              <samp>We are the best web developer</samp>
+              <br />
+              <spam>company in the world</spam>
+              <br />
+              <samp class="absolute mt-32">View Case Study -> </samp>
+              <br />
+              <samp class="skip absolute mt-28">SKIP</samp>
+            </div>
+          </div>
+        </section>
+        <section class="section flex h-screen w-1/2 ml-auto bg-violet-900">
+          <dev data-aos="fade-up" class="flex mt-36 ml-28 w-96 h-4/6">
+            <img
+              class="img"
+              src="./Images/nasa-fitness-tracking-mobile-app.png"
+              alt="art"
+              srcset=""
+            />
+          </dev>
+          <dev data-aos="fade-down" class="flex mt-40 mr-10 w- h-4/6">
+            <img
+              class="img"
+              src="./Images/measure-total-body-weight-through-fitness-app.png"
+              alt="art"
+              srcset=""
+            />
+          </dev>
+        </section>
+      </div>
+
+      <div class="flex">
+        <section class="section flex h-screen w-1/2 bg-fuchsia-800">
+          <div class="mt-64 ml-auto text-white" data-aos="zoom-out-up">
+            <span class="ml-96">Redefine</span>
+            <h1 class="dwnld ml-80">UX Strategy</h1>
+            <span class="ml-96">and UI design</span>
+          </div>
+
+          <div class="ABC123 absolute mt-96 text-white ml-8">
+            <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+              <h1 class="mt-24 text-3xl font-bold">ABC 456</h1>
+              <samp>We are the best web developer</samp>
+              <br />
+              <spam>company in the world</spam>
+              <br />
+              <samp class="absolute mt-32">Comming Soon </samp>
+              <br />
+              <samp class="skip absolute mt-28">SKIP</samp>
+            </div>
+          </div>
+        </section>
+
+        <section class="section flex h-screen w-1/2 ml-auto bg-slate-900">
+          <dev data-aos="fade-down-right" class="flex mt-0 ml-0 w-96 h-40">
+            <img class="img" src="./Images/pizza_box.png" alt="art" srcset="" />
+          </dev>
+          <dev
+            data-aos="fade-down-left"
+            class="brd absolute flex -mt-16 w-96 h-40"
+          >
+            <img
+              class="img"
+              class="-mt-28"
+              src="./Images/dominos-bread.png"
+              alt="art"
+              srcset=""
+            />
+          </dev>
+          <dev class="absolute flex mt-96 ml-52 w-96 h-3/6">
+            <img
+              data-aos="fade-up"
+              class="img"
+              src="./Images/domi-img1.png"
+              alt="art"
+              srcset=""
+            />
+          </dev>
+          <dev data-aos="fade-up" class="flex mt-32 ml-28 w-96 h-3/6">
+            <img
+              class="img"
+              src="./Images/ux-strategy-for-mobile-app-devlopment.png"
+              alt="art"
+              srcset=""
+            />
+          </dev>
+          <dev
+            data-aos="fade-up-left"
+            class="brd2 absolute flex mr-80 w-40 h-40"
+          >
+            <img
+              class="img"
+              src="./Images/dominos-bread1.png"
+              alt="art"
+              srcset=""
+            />
+          </dev>
+        </section>
+      </div>
+      <div class="flex">
+        <section class="section flex h-screen w-1/2 bg-violet-500">
+          <div class="mt-64 ml-auto text-white" data-aos="zoom-out-up">
+            <span class="ml-96">Text Healine</span>
+            <h1 class="dwnld ml-80">Text Headline</h1>
+            <span class="ml-96">Footer headline</span>
+          </div>
+
+          <div class="ABC123 absolute mt-96 text-white ml-8">
+            <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+              <h1 class="mt-24 text-3xl font-bold">ABC 567</h1>
+              <samp>We are the best web developer</samp>
+              <br />
+              <spam>company in the world</spam>
+              <br />
+              <samp class="absolute mt-32">Comming Soon </samp>
+              <br />
+              <samp class="skip absolute mt-28">SKIP</samp>
+            </div>
+          </div>
+        </section>
+        <section class="section flex h-screen w-1/2 ml-auto bg-cyan-200">
+          <dev data-aos="fade-down" class="flex -mt-20 ml-60 w-4/12 h-2/6">
+            <img
+              class="img"
+              src="./Images/karavan-social-networking-app-screen.png"
+              alt="art"
+              srcset=""
+            />
+          </dev>
+          <dev data-aos="fade-down" class="flex w-4/12 h-2/6">
+            <img
+              class="img"
+              src="./Images/social-networking-app-case-study.png"
+              alt="art"
+              srcset=""
+            />
+          </dev>
+          <dev data-aos="fade-up" class="absolute flex mt-96 ml-52 w-96 h-3/6">
+            <img class="img" src="./Images/karavan_2.png" alt="art" srcset="" />
+          </dev>
+          <dev data-aos="fade-up" class="absolute flex my-96 ml-96 w-96 h-3/6">
+            <img
+              class="img"
+              src="./Images/karavan-social-networking-app-screen-2.png"
+              alt="art"
+              srcset=""
+            />
+          </dev>
+          <dev data-aos="fade-left" class="flex mt-40 ml- w-44 h-80">
+            <img
+              class="img"
+              src="./Images/developers-for-social-media-app.png"
+              alt="art"
+              srcset=""
+            />
+          </dev>
+        </section>
+      </div>
+
+      <div class="flex">
+        <section class="section flex h-screen w-1/2 bg-pink-900">
+          <div class="mt-64 ml-auto text-white" data-aos="zoom-out-up">
+            <span class="ml-96">Developing ERP Solution for</span>
+            <h1 class="dwnld ml-80">Text Headline</h1>
+            <span class="ml-96">in future industry</span>
+          </div>
+
+          <div class="ABC123 absolute mt-96 text-white ml-8">
+            <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+              <h1 class="mt-24 text-3xl font-bold">ABC 678</h1>
+              <samp>We are the best web developer</samp>
+              <br />
+              <spam>company in the world</spam>
+              <br />
+              <samp class="absolute mt-32">Comming Soon </samp>
+              <br />
+              <samp class="skip absolute mt-28">SKIP</samp>
+            </div>
+          </div>
+        </section>
+        <section class="section flex h-screen w-1/2 ml-auto bg-slate-900">
+          <dev data-aos="fade-up" class="flex ml-52 mt-24 w-5/12 h-5/6">
+            <img
+              class="img"
+              src="./Images/erp-app-development-service.png"
+              alt="art"
+              srcset=""
+            />
+          </dev>
+        </section>
+      </div>
+
+      <div class="flex">
+        <section
+          class="section flex h-screen w-1/2 bg-green-800">
+          <div class="mt-64 ml-auto text-white" data-aos="zoom-out-up">
+            <span class="ml-96">Biggest Classifieds</span>
+            <h1 class="dwnld ml-80">East Asia</h1>
+            <span class="ml-96">Contries</span>
+          </div>
+
+          <div class="ABC123 absolute mt-96 text-white ml-8">
+            <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+              <img
+                class="img"
+                src="./Images/mobile-app-of-the-year-by-entrepreneur.png"
+                alt="art"
+                srcs
+              />
+              <h1 class="text-3xl font-bold">ABC 23478</h1>
+              <samp>We are the best web developer</samp>
+              <br />
+              <spam>company in the world</spam>
+              <br />
+              <samp class="absolute mt-32">View Case Study -> </samp>
+              <br />
+              <samp class="skip absolute mt-28">SKIP</samp>
+            </div>
+          </div>
+        </section>
+        <section class="section flex h-screen w-1/2 ml-auto bg-green-400">
+          <dev data-aos="fade-up" class="flex mt-60 ml-32 w-96 h-4/6">
+            <img
+              class="img ml-14"
+              src="./Images/melltoo-img2.png"
+              alt="art"
+              srcset=""
+            />
+          </dev>
+          <dev data-aos="fade-down" class="img flex mt-40 mr-10 w- h-4/6">
+            <img
+              class="mr-4"
+              src="./Images/melltoo-img1.png"
+              alt="art"
+              srcset=""
+            />
+          </dev>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script src="aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2000,
+      });
+    </script>
+
+    <script>
+      window.onscroll = function () {
+        changeImage();
+      };
+
+      function changeImage() {
+        var scroll = window.scrollY + window.innerHeight / 6;
+
+        [...document.getElementsByClassName("section")].forEach((el) => {
+          el.classList.remove("active");
+          //   console.log(el.classList);
+          if (
+            el.offsetTop <= scroll &&
+            el.offsetTop + el.offsetHeight > scroll
+          ) {
+            el.classList.add("active");
+            // console.log("active");
+          }
+        });
+      }
+      changeImage();
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://cartomanzia-tarocchi.com/wp-content/plugins/giochi-carte/public/js/DrawSVGPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/MotionPathPlugin.min.js"></script>
+    <!-- <script src="gsap/GSDevTools.js"></script> -->
+    <script
+      type="text/json"
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+    ></script>
+
+    <!-- <script src="./js/GSDevTools.min.js"></script> -->
+    <script src="./script/myScript.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/MotionPathPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+  </body>
+</html>
